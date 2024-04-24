@@ -1,0 +1,35 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 1000px;
+    margin: auto;
+	display: grid;
+	grid-template-columns: auto auto;
+	Gap: 20px; 
+}
+
+header {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.column{
+	padding: 15px;
+	background-color: #ddd;	
+}
+@media screen and (max-width: 600px) {
+  .container {
+    grid-template-columns:auto;
+  }
+}
+p{
+	color:#808080;
+}
